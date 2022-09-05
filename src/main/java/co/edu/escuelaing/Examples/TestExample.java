@@ -1,0 +1,29 @@
+package co.edu.escuelaing.Examples;
+
+import co.edu.escuelaing.Annotations.Test;
+
+public class TestExample {
+
+    @Test
+    public static void m1() {
+    }
+
+    public static void m2() throws Exception {
+        throw (new Exception("error en m2"));
+    }
+
+    @Test
+    public static void m3() {
+    }
+
+    @Test
+    public static void m4() throws Exception {
+        throw (new Exception("error en m4"));
+    }
+
+    @Test
+    public static void m6() throws Exception {
+        throw (new Exception("error en m6"));
+    }
+
+}
